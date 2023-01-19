@@ -751,7 +751,7 @@ body {
 }
 
 .form-input:focus {
-  outline: none;
+  outline: transparent;
   border: 1px solid #4d5ae5;
 }
 
@@ -814,9 +814,10 @@ body {
 
 .form-check:checked + .form-check-descrip::before {
   background-color: #404bbf;
-  background-image: url(/images/checkbox-icon.svg);
-  background-size: contain;
-  fill: #f4f4fd;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+ 
 }
 
 .form-check:focus + .form-check-descrip::before {
