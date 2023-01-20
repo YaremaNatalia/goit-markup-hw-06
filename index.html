@@ -443,25 +443,27 @@
         </div>
         <form class="footer-form">
           <h2 class="footer-form-subtitle subtitle">Subscribe</h2>
-          <label class="footer-field">
-            <input
-              type="email"
-              name="user-amail"
-              class="footer-input"
-              placeholder="E-mail"
-              required
-            />
+          <span class="fotter-form-wrapper">
+            <label class="footer-field">
+              <input
+                type="email"
+                name="user-amail"
+                class="footer-input"
+                placeholder="E-mail"
+                required
+              />
+            </label>
             <button type="submit" class="footer-subscribe-btn btn">
               Subscribe
               <svg class="footer-form-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
             </button>
-          </label>
+          </span>
         </form>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -519,6 +521,11 @@
             class="form-check visually-hidden"
           />
           <label for="user-policy" class="form-check-descrip">
+            <span>
+              <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
             I accept the terms and conditions of the&nbsp;
             <a href="">Privacy Policy</a>
           </label>
