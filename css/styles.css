@@ -457,6 +457,7 @@ body {
 }
 .footer-wrap {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-logo {
@@ -473,7 +474,7 @@ body {
 .footer-media-wrap {
   width: 208px;
   height: 80px;
-  margin-right: 80px;
+  margin-right: auto;
 }
 .foter-subtitle {
   color: var(--white-text-color);
@@ -530,8 +531,9 @@ body {
   height: 80px;
 }
 
-.fotter-form-wrapper {
+.footer-form-wrapper {
   display: flex;
+  align-items: center;
   gap: var(--card-set-gap);
 }
 
